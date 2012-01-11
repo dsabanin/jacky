@@ -2,6 +2,18 @@ Simple command line client for http://beanstalkapp.com.
 
 Right now the only thing it can do is to create repositories.
 
+Preparation:
+
+Install beanstalkapp gem.
+
+Then add your Beanstalk API settings into your ~/.beanstalkrc file in following format:
+
+  domain: "your-account"
+  login: "your-login"
+  password: "your-password"
+
+Make sure you have API access enabled in Beanstalk's account settings.
+
 Usage:
 
-$ jacky repository create my-repo git "My New Repository"
+  $ jacky repository create my-repo git "My New Repository"

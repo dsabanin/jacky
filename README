@@ -1,0 +1,7 @@
+Simple command line client for http://beanstalkapp.com.
+
+Right now the only thing it can do is to create repositories.
+
+Usage:
+
+$ jacky repository create my-repo git "My New Repository"

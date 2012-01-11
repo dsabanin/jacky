@@ -1,0 +1,7 @@
+#!/usr/bin/ruby
+
+require 'rubygems'
+$: << File.dirname(File.expand_path(File.join(File.readlink(__FILE__), "..")))
+require 'lib/boot'
+
+Jacky::Boot.instance.load_scope(ARGV.first)
